@@ -117,7 +117,7 @@ function LoadingScreen() {
 }
 
 function LoginScreen({ client }: { client: SupabaseClient }) {
-  const [login, setLogin] = useState("");
+  const [login, setLogin] = useState("Golee");
   const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
