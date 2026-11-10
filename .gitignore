@@ -4,6 +4,7 @@
 .vercel
 node_modules
 dist
+supabase/.temp/
 *.log
 Thumbs.db
 .DS_Store
